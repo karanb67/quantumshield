@@ -34,13 +34,13 @@ const Contact = () => {
     e.preventDefault();
 
     // Google Form's Form Response URL
-    const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSd-e7v8W17HE9QR_-pL1I42HUEk4Msx4XtRrnAHWbZXSUQRMA/formResponse';
+    const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSfWO34ist5xb2BNGMwJVBScTeT76nRCx15FnVroQNbuXb2b4A/formResponse';
 
     const formBody = new URLSearchParams();
-    formBody.append('entry.1377060877', formData.name); // Replace with your form field names
-    formBody.append('entry.1957412805', formData.email);
-    formBody.append('entry.1068559338', formData.phone);
-    formBody.append('entry.351346217', formData.message);
+    formBody.append('entry.628845030', formData.name); // Replace with your form field names
+    formBody.append('entry.1282540953', formData.email);
+    formBody.append('entry.172661482', formData.phone);
+    formBody.append('entry.796077671', formData.message);
 
     fetch(formUrl, {
       method: 'POST',
