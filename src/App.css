@@ -1,0 +1,24 @@
+body {
+  font-family: 'Arial, sans-serif';
+  line-height: 1.6;
+  background-color: #f7f7f7; /* Light neutral background for a clean, modern feel */
+  color: #222; /* Dark gray for text */
+}
+
+h1, h2, h3 {
+  color: #000;
+}
+
+a, button {
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+a:hover, button:hover {
+  background-color: #00000053;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+  text-decoration-color: #fff;
+}
