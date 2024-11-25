@@ -77,9 +77,9 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: 'easeOut' }}
           >
-            <h3 className="text-2xl md:text-3xl font-semibold mb-4">Reliable Network Speeds</h3>
+            <h3 className="text-2xl md:text-3xl font-semibold mb-4">lalalalalalal</h3>
             <p className="text-base md:text-lg">
-              Enjoy high-speed connectivity without compromising security, ensuring a seamless experience.
+              lalalalalalalalalalalalal.
             </p>
           </motion.div>
           <motion.div
