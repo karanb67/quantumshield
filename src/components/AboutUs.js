@@ -9,8 +9,8 @@ const teamMembers = [
   { name: 'Ishmita Reehal', role: 'Network and Infrastructure Engineer', image: require('../assets/ishmita.jpg'), linkedin: 'https://www.linkedin.com/in/ishmitareehal/' },
   { name: 'Muddassir Ahmed', role: 'Network and Infrastructure Engineer', image: require('../assets/muddassir.jpg'), linkedin: 'https://www.linkedin.com/in/mahmednadeem/' },
   { name: 'Charmi Balar', role: 'R&D Specialist', image: require('../assets/charmi.jpg'), linkedin: 'https://www.linkedin.com/in/charmi-balar-3338651bb/' },
-  { name: 'Kreny Patel', role: 'Compliance Specialist', image: require('../assets/kreny.jpg'), linkedin: 'https://www.linkedin.com/in/krenypatel29/' },
-  { name: 'Dhruviben Patel', role: 'Documentation & QA', image: require('../assets/dhruvi.jpg'), linkedin: 'https://www.linkedin.com/in/dhruviben-patel-429a39327/' },
+  { name: 'Kreny Patel', role: 'Compliance Specialist', image: require('../assets/kreny.png'), linkedin: 'https://www.linkedin.com/in/krenypatel29/' },
+  { name: 'Dhruviben Patel', role: 'Documentation & QA', image: require('../assets/dhruvi.png'), linkedin: 'https://www.linkedin.com/in/dhruviben-patel-429a39327/' },
   { name: 'Anshika Joshi', role: 'Documentation & QA Lead', image: require('../assets/anshika.jpg'), linkedin: 'https://www.linkedin.com/in/anshika-joshi-416309229/' },
 ];
 
