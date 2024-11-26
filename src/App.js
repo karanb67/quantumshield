@@ -10,6 +10,9 @@ import ProjectDetail from './components/ProjectDetail';
 import NotFound from './components/NotFound';
 import ErrorBoundary from './components/ErrorBoundary';
 import Contact from './components/Contact';
+import AdvancedEncryption from './components/AdvancedEncryption';
+import UserFriendly from './components/UserFriendly';
+import SecureConnections from './components/SecureConnections';
 import './App.css';
 
 function App() {
@@ -24,6 +27,9 @@ function App() {
           <Route path="/projects/:id" element={<ProjectDetail />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/advanced-encryption" element={<AdvancedEncryption />} />
+          <Route path="/user-friendly" element={<UserFriendly />} />
+           <Route path="/secure-connection" element={<SecureConnections />} />
         </Routes>
         <Footer />
       </div>

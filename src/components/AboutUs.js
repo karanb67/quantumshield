@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaLinkedin } from 'react-icons/fa';
 
+// Team Members Data
 const teamMembers = [
   { name: 'Karan', role: 'Project Lead', image: require('../assets/karan.jpg'), linkedin: 'https://www.linkedin.com/in/karan69/' },
   { name: 'Ishan Patel', role: 'Network Security and Compliance Specialist', image: require('../assets/ishan.jpg'), linkedin: 'https://www.linkedin.com/in/ishan-patel-337128174/' },
@@ -10,7 +11,7 @@ const teamMembers = [
   { name: 'Charmi Balar', role: 'R&D Specialist', image: require('../assets/charmi.jpg'), linkedin: 'https://www.linkedin.com/in/charmi-balar-3338651bb/' },
   { name: 'Kreny Patel', role: 'Compliance Specialist', image: require('../assets/kreny.jpg'), linkedin: 'https://www.linkedin.com/in/krenypatel29/' },
   { name: 'Dhruviben Patel', role: 'Documentation & QA', image: require('../assets/dhruvi.jpg'), linkedin: 'https://www.linkedin.com/in/dhruviben-patel-429a39327/' },
-  { name: 'Anshika Joshi', role: 'Documentation & QA Lead', image: require('../assets/anshika.jpg'), linkedin: 'https://www.linkedin.com/in/anshika-joshi-416309229/' }
+  { name: 'Anshika Joshi', role: 'Documentation & QA Lead', image: require('../assets/anshika.jpg'), linkedin: 'https://www.linkedin.com/in/anshika-joshi-416309229/' },
 ];
 
 const AboutUs = () => {
@@ -22,20 +23,27 @@ const AboutUs = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">About QuantumShield</h2>
-        <p className="text-lg md:text-xl text-gray-700 mb-6">
-          At QuantumShield, we are dedicated to providing cutting-edge wireless communication solutions using VPN technology. Our focus is on delivering advanced encryption, user-friendly interfaces, and reliable network speeds to businesses, privacy-conscious individuals, and tech enthusiasts.
+        <h2 className="text-4xl font-extrabold text-gray-900 mb-6 tracking-tight">
+          About QuantumShield
+        </h2>
+        <p className="text-lg leading-relaxed text-gray-700 font-light">
+          At <span className="font-bold text-gray-900">QuantumShield</span>, we are committed to delivering cutting-edge wireless communication solutions using VPN technology. With advanced encryption, user-friendly designs, and reliable network speeds, we cater to businesses, privacy-conscious individuals, and tech enthusiasts alike.
         </p>
-        <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Our Commitment to Innovation and Security</h3>
-        <p className="text-lg md:text-xl text-gray-700 mb-6">
-          With a passion for innovation, we aim to showcase our project by highlighting the benefits of our secure communication solutions. Our commitment lies in ensuring your data and communication remain protected and efficient.
+        <h3 className="text-3xl font-bold text-gray-800 mt-8 mb-4">
+          Innovation and Security: Our Core Values
+        </h3>
+        <p className="text-lg leading-relaxed text-gray-600 font-medium">
+          We aim to showcase the benefits of secure communication solutions by merging innovation with robust security. Our solutions ensure that your data and communication remain protected and efficient.
         </p>
-        <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Our Story</h3>
-        <p className="text-lg md:text-xl text-gray-700 mb-6">
-          Founded on a shared passion for cybersecurity and wireless communication, our company was created to provide businesses with reliable and secure VPN services. From the very beginning, we saw the increasing need for safe and efficient remote access solutions in a world where more and more employees work from various locations. Our journey started with the goal of designing and implementing VPN systems that meet the highest standards of security and performance.
+        <h3 className="text-3xl font-bold text-gray-800 mt-8 mb-4">
+          Our Story
+        </h3>
+        <p className="text-lg leading-relaxed text-gray-600 font-medium">
+          Founded on a shared passion for cybersecurity, QuantumShield was born to provide reliable VPN services in a world where remote work has become essential. Our journey started with a simple mission: secure data and enable efficient communication across networks.
         </p>
       </motion.div>
 
+      {/* Meet the Team Section */}
       <motion.h2
         className="text-4xl font-bold text-center mt-16 mb-12 text-black"
         initial={{ opacity: 0 }}
@@ -54,7 +62,7 @@ const AboutUs = () => {
           <motion.div
             key={index}
             className="bg-white text-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-200"
-            whileHover={{ scale: 1.05, boxShadow: '0px 10px 30px rgba(0, 0, 0, 0.1)' }}
+            whileHover={{ scale: 1.05 }}
           >
             <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-gray-300">
               <img
