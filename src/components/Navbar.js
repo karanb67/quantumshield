@@ -61,6 +61,15 @@ const Navbar = () => {
           </li>
           <li>
             <Link
+              to="/blog"
+              onClick={() => setIsOpen(false)}
+              className="hover:text-blue-600 text-gray-800 cursor-pointer transition-colors"
+            >
+              Blog
+            </Link>
+          </li>
+          <li>
+            <Link
               to="/contact"
               onClick={() => setIsOpen(false)}
               className="hover:text-blue-600 text-gray-800 cursor-pointer transition-colors"

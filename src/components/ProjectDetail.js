@@ -39,12 +39,17 @@ const ProjectDetail = () => {
           {/* Demo Video Section */}
           <h2 className="text-3xl font-semibold mb-4 text-gray-900">Demo Video</h2>
           <div className="rounded-lg shadow-lg overflow-hidden">
-            <video controls className="w-full rounded-lg">
-              <source src="demo-video.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+          <iframe
+           src="https://drive.google.com/file/d/1IVkrahjhW0F7riUjIHBESE9ORKjz-KC1/preview"
+           width="100%"
+           height="480"
+           allow="autoplay"
+          ></iframe>
           </div>
         </motion.div>
+        <br></br>
+        
+       
       </div>
     </div>
   );

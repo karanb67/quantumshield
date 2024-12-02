@@ -86,16 +86,29 @@ const Home = () => {
 </motion.div>
 
         {/* Marketing Video */}
-        <div className="w-full max-w-4xl mx-auto mb-16">
-          <video controls className="w-full rounded-lg shadow-lg">
-            <source src="marketing-video.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
-
+        <h2 className="text-3xl font-semibold mb-4 text-gray-900">Marketing Video</h2>
+          <div className="rounded-lg shadow-lg overflow-hidden">
+          <iframe
+           src="https://drive.google.com/file/d/1mkKvZBhQTKK8M6zI73B3c9I50e8zhdq_/preview"
+           width="800"
+           height="480"
+           allow="autoplay"
+          ></iframe>
+          </div>
+          <h2 className="text-3xl py-10 font-semibold mb-4 text-gray-900">Final Showcase Presentation
+        </h2>
+          <div className="rounded-lg shadow-lg overflow-hidden">
+          <iframe
+           src="" //final showcase presentation
+           width="800"
+           height="480"
+           allow="autoplay"
+          ></iframe>
+          </div>
         {/* Client Reviews Section */}
+        <h2 className="text-3xl font-semibold mb-4 text-gray-900 py-10">What Our Clients says About Us</h2>
         <motion.div
-          className="flex justify-between items-center space-x-6"
+          className="flex justify-between items-center space-x-6 py-3"
           initial="hidden"
           animate="visible"
           variants={{
