@@ -40,7 +40,7 @@ const ProjectDetail = () => {
           <h2 className="text-3xl font-semibold mb-4 text-gray-900">Demo Video</h2>
           <div className="rounded-lg shadow-lg overflow-hidden">
           <iframe
-           src="https://drive.google.com/file/d/1qroEIG0Ok032SmIHFCLGgy_i5m54mCTj/view"
+           src="https://drive.google.com/file/d/1cSzQisAD6vQqXE63if6zgpaO6BSG0qmr/preview"
            width="100%"
            height="480"
            allow="autoplay"
